@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: 'poppins',sans-serif;
-    font-sizing: 18px;
+    -moz-box-sizing: 18px;
 }
 body{ 
+   
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .header{
-    height: 80px;
+    height: 70px;
     width: 90%;
     background-color: aqua;
     border-radius: 3px;
@@ -30,5 +31,42 @@ body{
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+.container{
+    display: flex;
+    width: 93%;
+    margin-bottom: 40px;
+}
+#root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    background-color: aqua;
+    border-radius: 3px;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid;
 }
