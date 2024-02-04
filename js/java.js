@@ -18,6 +18,11 @@ const product = [
     image:'./image/ironchu.jpg',
     title: 'ironchu',
     price: 500,
+   },
+   { id: 4,
+    image:'./image/deadchu.jpg',
+    title: 'deadchu',
+    price: 450,
    }
 ];
 const categories = [...new Set(product.map((item)=>
