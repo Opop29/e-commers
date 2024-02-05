@@ -23,6 +23,20 @@ const product = [
     image:'./image/deadchu.jpg',
     title: 'deadchu',
     price: 450,
+   },
+   { id: 5,
+    image:'./image/enelchu.jpg',
+    title: 'enelchu',
+    price: 450,
+   },
+   { id: 6,
+    image:'./image/minachu.jpg',
+    title: 'minachu',
+    price: 400,
+   }, { id: 7,
+    image:'./image/strongerchu.jpg',
+    title: 'superchu',
+    price: 600,
    }
 ];
 const categories = [...new Set(product.map((item)=>
@@ -37,8 +51,8 @@ const categories = [...new Set(product.map((item)=>
             <img class='images' src='${image}'></img>
         </div>
         <div class='bottom'>
-            <p>${title}</p>
-            <h2>$ ${price}.00</h2>
+            <p class='p1'>${title}</p>
+            <h2>₱ ${price}.00</h2>
             <button onclick='addtocart(${i++})'>Add to cart</button>
         </div>
     </div>`;
