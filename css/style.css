@@ -61,7 +61,7 @@ p{
 .sidebar{
     width: 40%;
     border-radius: 5px;
-    background-color:gray;
+    background-color:rgb(177, 174, 174);
     margin-left: 20px;
     padding: 15px;
     text-align: center;
@@ -129,6 +129,6 @@ button{
     color: white;
 }
 button:hover{
-    background-color: #333;
+    background-color: aqua;
    
 }
